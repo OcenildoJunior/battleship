@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <title>Batalha Naval</title>
+        <script src="/client.js"></script>
+    </head>
+    <body>
+        <div id="multiplayerlobbyscreen" class="gamelayer">
+            <select id="multiplayergameslist" size="10">
+            </select>
+            <input type="button" id="multiplayerjoin" onclick="multiplayer.join();">
+            <input type="button" id="multiplayercancel" onclick="multiplayer.cancel();">
+        </div>
+    </body>
+</html>
